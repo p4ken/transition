@@ -1,0 +1,17 @@
+﻿BveTs Map 2.02
+
+0;
+Repeater['バラスト自線'].Begin(, 0, 0, 0, 0, 0, 0.1, 3, 5, 5, 'Ballast0', 'Ballast1', 'Ballast2', 'Ballast3', 'Ballast4');
+Repeater['レール自線L'].Begin(, -0.5335, 0, 0, 0, 0, 0, 3, 5, 5, 'RailL0', 'RailL1', 'RailL2', 'RailL3', 'RailL4');
+Repeater['レール自線R'].Begin(, 0.5335, 0, 0, 0, 0, 0, 3, 5, 5, 'RailR0', 'RailR1', 'RailR2', 'RailR3', 'RailR4');
+
+25;
+Curve.SetFunction(1);
+Curve.Interpolate();
+
+distance + 75;
+Curve.Interpolate(-200);
+
+distance + 50;
+Curve.Interpolate();
+Curve.Interpolate(0);
