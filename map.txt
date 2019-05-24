@@ -2,5 +2,5 @@
 
 0;
 Structure.Load('structures.csv');
-include 'curve.bve';
-include 'straight.bve';
+include 'curve.txt';
+include 'straight.txt';
